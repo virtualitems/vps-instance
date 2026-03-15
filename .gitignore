@@ -1,1 +1,9 @@
-.ignore/
+/.ignore
+/.vscode
+/.credentials
+
+*.db
+*.sqlite
+*.sqlite3
+
+*.log

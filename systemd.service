@@ -1,0 +1,20 @@
+[Unit]
+Description=Demo AlejandroCR
+After=network.target
+
+[Service]
+Type=simple
+TimeoutStartSec=600
+Restart=always
+RestartSec=2
+KillSignal=SIGINT
+RuntimeDirectory=demo.alejandrocr.co
+RuntimeDirectoryMode=0775
+LogsDirectory=demo.alejandrocr.co
+WorkingDirectory=/home/ec2-user/demo.alejandrocr.co
+ExecStart=/home/ec2-user/demo.alejandrocr.co/venv/bin/python -OO -m hypercorn server.main:app --bind unix:/var/run/demo.alejandrocr.co/unix.sock --workers 1 --umask 113
+User=ec2-user
+Group=ec2-user
+
+[Install]
+WantedBy=multi-user.target

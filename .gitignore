@@ -3,6 +3,11 @@
 /.ignore
 /.vscode
 
+# Knowledge
+/.wiki
+/.example
+/.examples
+
 # AI
 /.agents
 /.claude

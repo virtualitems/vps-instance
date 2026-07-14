@@ -1,9 +1,18 @@
+# Personal
+/.credentials
 /.ignore
 /.vscode
-/.credentials
 
+# AI
+/.agents
+/.claude
+/.codex
+/.opencode
+
+# SQLite database files
 *.db
 *.sqlite
 *.sqlite3
 
+# Logs
 *.log

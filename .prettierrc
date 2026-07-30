@@ -2,7 +2,10 @@
   "bracketSpacing": true,
   "editor.formatOnSave": true,
   "endOfLine": "lf",
+  "printWidth": 90,
   "semi": false,
   "singleQuote": true,
-  "trailingComma": "none"
+  "tabWidth": 4,
+  "trailingComma": "none",
+  "useTabs": false
 }

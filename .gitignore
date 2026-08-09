@@ -11,10 +11,10 @@
 /.examples
 
 # AI
-/.agents
-/.claude
-/.codex
-/.opencode
+/.agents/skills
+/.claude/skills
+/.codex/skills
+/.opencode/skills
 
 # SQLite database files
 *.db

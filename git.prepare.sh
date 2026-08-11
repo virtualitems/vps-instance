@@ -8,6 +8,9 @@ set -euo pipefail
 
 echo "Applying global Git settings..."
 
+# Set global default branch to Main
+git config --global init.defaultBranch main
+
 # Keep LF in the repository and avoid converting LF to CRLF on checkout.
 git config --global core.autocrlf input
 

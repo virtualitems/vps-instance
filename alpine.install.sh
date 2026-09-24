@@ -23,3 +23,6 @@ apk add tmux
 
 ### Seguridad
 apk add ufw
+
+### Red
+apk add nginx openssh-client openssh-server

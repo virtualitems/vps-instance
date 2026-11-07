@@ -9,12 +9,15 @@
 /.wiki
 /.example
 /.examples
+/.proposal
 
 # AI
 /.agents/skills
 /.claude/skills
 /.codex/skills
 /.opencode/skills
+/.playwright-mcp
+/.playwright
 
 # SQLite database files
 *.db
